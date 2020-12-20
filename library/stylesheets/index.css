@@ -1,0 +1,3015 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+   *{
+      /* padding: 0px;
+      margin: 0px; */
+      box-sizing:border-box
+   }
+   body
+   {
+      width: auto;
+      position: relative;
+      height: 3072px;
+      background: rgba(0, 0, 0, 0.8) ; 
+   }  
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 80px;
+      padding: 2px 10px;
+   }
+   /*navigation*/
+   .header
+   {
+      height :80vh;
+   }
+   .navbar-style
+   {
+      padding: 10px 10px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+   }
+   .icon-bar
+   {
+      background: #FBC314;
+   }
+   li a
+   { 
+      color: #FBC314;  
+   }
+   li
+   {
+      top: 10px;
+   }
+   /*navigation bar ends*/
+
+
+   /*content*/
+   .head
+   {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 25px;
+      margin: 0 40px 0 ;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .big-text
+   {
+      display: block;
+      font-size: 16px;
+      margin: 0px 0px 0px 40px ;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+       
+   }
+   a.btn
+   {
+      margin: 0 40px 0 ;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      color: #ffffff; 
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .banner-info
+   {
+      margin: 50px 1px 1px 30px;
+   }
+   /* dot design*/
+   .designbg 
+   {
+      position: absolute;
+      left: -2.7%;
+      right: 94.9%;
+      opacity: 0.7;
+      top: 8%;
+   }
+   .design2 
+   {
+      position: absolute;
+      left: -3.1%;
+      right: 96.46%;
+      top: 11.92%;
+      opacity: 0.9;
+   }
+
+
+   /* Slideshow */
+   .carousel-inner
+   {
+      width: 500px;
+      height: 340px;
+      padding: 40px 0px 0px 0px;
+   }
+   /* Fading animation*/ 
+   .maindiv 
+   {
+      width: 500px;
+      height: 340px;
+      position: absolute;
+      top: 4%;
+      left: 56%; 
+      background-image: url('../../images/Group%20pic.svg');
+      box-shadow: 0px 0px 0px 1px white;
+      animation: Slider 60s infinite linear;
+   }
+   @keyframes Slider
+   {
+      0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+      }
+      20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+      }
+      40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+      60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+      80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+   }
+   /*slider ends  */
+   
+   
+   
+   /* Credentials*/
+   .card-deck-sec
+   {
+      margin: 20px 50px 20px ;
+      display: block;
+      position: relative;
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103; 
+   }
+   /*option cards starts*/
+   .options h2 
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .options p 
+   {
+      font-family: "Muli",sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */      
+      color: #FFFFFF;      
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*option cards ends*/
+   .segment-on
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic11
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-tw
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic21
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-thr
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic31
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fou
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic41
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fiv
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic51
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-si
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic61
+   {
+      padding: 10px 0 0 0;
+   }
+
+   
+   /*products starts*/      
+   .designbgc
+   {
+      position: absolute;
+      top: 57.50%;
+   }
+   .card-deck-thr
+   {
+      display: block;
+      padding: 100px 10px 100px 1px;
+      position: absolute;
+      top: 65%;
+      height :100vh;
+   }   
+   .segment-12
+   {
+      margin: 10px 125px 10px 80px ;
+      width: 300px;
+      height: 300px;
+   }
+   .pic111
+   {
+      justify-content: center;
+      padding: 10px 0 0 0;
+      width: 350px;
+      height: 350px;
+   } 
+   .segment-13
+   {
+      margin: 50px 0px 100px 260px;
+      width: 400px;
+      height: 400px;
+   }
+   .Products h2
+   { 
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   /*products ends*/
+
+   
+   /*blog slider starts*/  
+   .card-deck
+   {
+      position: absolute;
+      display: block;
+      top:46%;
+      height: 150%vh;  
+   }  
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   .segment-1
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font=size:22px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   }
+   .segment-3
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   .btn-sec
+   {
+      position: absolute;
+      left: 38%;
+      top: 100px; 
+   }
+   /*blog slider ends*/
+   
+     
+   /* footer start*/
+   p
+   {
+      color: aliceblue;
+      line-height: 25px;
+   }
+   h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 13px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .lg
+   {
+      width:220px;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+   p
+   {
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px        
+   }
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 19px 0px ;  
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 75px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+   }
+   .footer
+   {
+      display: block;
+      position: absolute;
+      width: 100%;
+      bottom:0;
+      right: 0;
+   }
+  /* footer ends*/
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  *{
+      /* padding: 0px;
+      margin: 0px; */
+      box-sizing:border-box
+   }
+   body
+   {
+      width: auto;
+      position: relative;
+      height: 3072px;
+      background: rgba(0, 0, 0, 0.8) ; 
+   }  
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 80px;
+      padding: 2px 10px;
+   }
+   /*navigation*/
+   .header
+   {
+      height :80vh;
+   }
+   .navbar-style
+   {
+      padding: 10px 10px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+   }
+   .icon-bar
+   {
+      background: #FBC314;
+   }
+   li a
+   { 
+      color: #FBC314;  
+   }
+   li
+   {
+      top: 10px;
+   }
+   /*navigation bar ends*/
+
+
+   /*content*/
+   .head
+   {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 25px;
+      margin: 0 40px 0 ;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .big-text
+   {
+      display: block;
+      font-size: 16px;
+      margin: 0px 0px 0px 40px ;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+       
+   }
+   a.btn
+   {
+      margin: 0 40px 0 ;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      color: #ffffff; 
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .banner-info
+   {
+      margin: 50px 1px 1px 30px;
+   }
+   /* dot design*/
+   .designbg 
+   {
+      position: absolute;
+      left: -2.7%;
+      right: 94.9%;
+      opacity: 0.7;
+      top: 8%;
+   }
+   .design2 
+   {
+      position: absolute;
+      left: -3.1%;
+      right: 96.46%;
+      top: 11.92%;
+      opacity: 0.9;
+   }
+
+
+   /* Slideshow */
+   .carousel-inner
+   {
+      width: 500px;
+      height: 340px;
+      padding: 40px 0px 0px 0px;
+   }
+   /* Fading animation*/ 
+   .maindiv 
+   {
+      width: 500px;
+      height: 340px;
+      position: absolute;
+      top: 4%;
+      left: 56%; 
+      background-image: url('../../images/Group%20pic.svg');
+      box-shadow: 0px 0px 0px 1px white;
+      animation: Slider 60s infinite linear;
+   }
+   @keyframes Slider
+   {
+      0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+      }
+      20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+      }
+      40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+      60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+      80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+   }
+   /*slider ends  */
+   
+   
+   
+   /* Credentials*/
+   .card-deck-sec
+   {
+      margin: 20px 50px 20px ;
+      display: block;
+      position: relative;
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103; 
+   }
+   /*option cards starts*/
+   .options h2 
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .options p 
+   {
+      font-family: "Muli",sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */      
+      color: #FFFFFF;      
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*option cards ends*/
+   .segment-on
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic11
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-tw
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic21
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-thr
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic31
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fou
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic41
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fiv
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic51
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-si
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic61
+   {
+      padding: 10px 0 0 0;
+   }
+
+   
+   /*products starts*/      
+   .designbgc
+   {
+      position: absolute;
+      top: 57.50%;
+   }
+   .card-deck-thr
+   {
+      display: block;
+      padding: 100px 10px 100px 1px;
+      position: absolute;
+      top: 65%;
+      height :100vh;
+   }   
+   .segment-12
+   {
+      margin: 10px 125px 10px 80px ;
+      width: 300px;
+      height: 300px;
+   }
+   .pic111
+   {
+      justify-content: center;
+      padding: 10px 0 0 0;
+      width: 350px;
+      height: 350px;
+   } 
+   .segment-13
+   {
+      margin: 50px 0px 100px 260px;
+      width: 400px;
+      height: 400px;
+   }
+   .Products h2
+   { 
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   /*products ends*/
+
+   
+   /*blog slider starts*/  
+   .card-deck
+   {
+      position: absolute;
+      display: block;
+      top:46%;
+      height: 150%vh;  
+   }  
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   .segment-1
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font=size:22px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   }
+   .segment-3
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   .btn-sec
+   {
+      position: absolute;
+      left: 38%;
+      top: 100px; 
+   }
+   /*blog slider ends*/
+   
+     
+   /* footer start*/
+   p
+   {
+      color: aliceblue;
+      line-height: 25px;
+   }
+   h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 13px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .lg
+   {
+      width:220px;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+   p
+   {
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px        
+   }
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 19px 0px ;  
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 75px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+   }
+   .footer
+   {
+      display: block;
+      position: absolute;
+      width: 100%;
+      bottom:0;
+      right: 0;
+   }
+  /* footer ends*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+   *{
+      /* padding: 0px;
+      margin: 0px; */
+      box-sizing:border-box
+   }
+   body
+   {
+      width: auto;
+      position: relative;
+      height: 3072px;
+      background: rgba(0, 0, 0, 0.8) ; 
+   }  
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 80px;
+      padding: 2px 10px;
+   }
+   /*navigation*/
+   .header
+   {
+      height :80vh;
+   }
+   .navbar-style
+   {
+      padding: 10px 10px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+   }
+   .icon-bar
+   {
+      background: #FBC314;
+   }
+   li a
+   { 
+      color: #FBC314;  
+   }
+   li
+   {
+      top: 10px;
+   }
+   /*navigation bar ends*/
+
+
+   /*content*/
+   .head
+   {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 25px;
+      margin: 0 40px 0 ;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .big-text
+   {
+      display: block;
+      font-size: 16px;
+      margin: 0px 0px 0px 40px ;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+       
+   }
+   a.btn
+   {
+      margin: 0 40px 0 ;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      color: #ffffff; 
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .banner-info
+   {
+      margin: 50px 1px 1px 30px;
+   }
+   /* dot design*/
+   .designbg 
+   {
+      position: absolute;
+      left: -2.7%;
+      right: 94.9%;
+      opacity: 0.7;
+      top: 8%;
+   }
+   .design2 
+   {
+      position: absolute;
+      left: -3.1%;
+      right: 96.46%;
+      top: 11.92%;
+      opacity: 0.9;
+   }
+
+
+   /* Slideshow */
+   .carousel-inner
+   {
+      width: 500px;
+      height: 340px;
+      padding: 40px 0px 0px 0px;
+   }
+   /* Fading animation*/ 
+   .maindiv 
+   {
+      width: 500px;
+      height: 340px;
+      position: absolute;
+      top: 4%;
+      left: 56%; 
+      background-image: url('../../images/Group%20pic.svg');
+      box-shadow: 0px 0px 0px 1px white;
+      animation: Slider 60s infinite linear;
+   }
+   @keyframes Slider
+   {
+      0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+      }
+      20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+      }
+      40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+      60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+      80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+   }
+   /*slider ends  */
+   
+   
+   
+   /* Credentials*/
+   .card-deck-sec
+   {
+      margin: 20px 50px 20px ;
+      display: block;
+      position: relative;
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103; 
+   }
+   /*option cards starts*/
+   .options h2 
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .options p 
+   {
+      font-family: "Muli",sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */      
+      color: #FFFFFF;      
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*option cards ends*/
+   .segment-on
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic11
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-tw
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic21
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-thr
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic31
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fou
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic41
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fiv
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic51
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-si
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic61
+   {
+      padding: 10px 0 0 0;
+   }
+
+   
+   /*products starts*/      
+   .designbgc
+   {
+      position: absolute;
+      top: 57.50%;
+   }
+   .card-deck-thr
+   {
+      display: block;
+      padding: 100px 10px 100px 1px;
+      position: absolute;
+      top: 65%;
+      height :100vh;
+   }   
+   .segment-12
+   {
+      margin: 10px 125px 10px 80px ;
+      width: 300px;
+      height: 300px;
+   }
+   .pic111
+   {
+      justify-content: center;
+      padding: 10px 0 0 0;
+      width: 350px;
+      height: 350px;
+   } 
+   .segment-13
+   {
+      margin: 50px 0px 100px 260px;
+      width: 400px;
+      height: 400px;
+   }
+   .Products h2
+   { 
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   /*products ends*/
+
+   
+   /*blog slider starts*/  
+   .card-deck
+   {
+      position: absolute;
+      display: block;
+      top:46%;
+      height: 150%vh;  
+   }  
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   .segment-1
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font=size:22px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   }
+   .segment-3
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   .btn-sec
+   {
+      position: absolute;
+      left: 38%;
+      top: 100px; 
+   }
+   /*blog slider ends*/
+   
+     
+   /* footer start*/
+   p
+   {
+      color: aliceblue;
+      line-height: 25px;
+   }
+   h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 13px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .lg
+   {
+      width:220px;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+   p
+   {
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px        
+   }
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 19px 0px ;  
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 75px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+   }
+   .footer
+   {
+      display: block;
+      position: absolute;
+      width: 100%;
+      bottom:0;
+      right: 0;
+   }
+  /* footer ends*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+   *{
+      /* padding: 0px;
+      margin: 0px; */
+      box-sizing: border-box;
+   }
+   body
+   {
+      /* position: relative; */
+      /* height: 3072px; */
+      background: rgba(0, 0, 0, 0.8) ; 
+   }  
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 20px;
+      padding: 2px 10px;
+   }
+   /*navigation*/
+   .header
+   {
+      height :80vh;
+   }
+   .navbar-style
+   {
+      padding: 10px 10px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+   }
+   .icon-bar
+   {
+      background: #FBC314;
+   }
+   li a
+   { 
+      color: #FBC314;  
+   }
+   li
+   {
+      top: 10px;
+   }
+   /*navigation bar ends*/
+
+
+   /*content*/
+   .head
+   {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 25px;
+      margin: 0 40px 0 ;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .big-text
+   {
+      display: block;
+      font-size: 16px;
+      margin: 0px 0px 0px 40px ;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+       
+   }
+   a.btn
+   {
+      margin: 0 40px 0 ;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      color: #ffffff; 
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .banner-info
+   {
+      margin: 50px 1px 1px 30px;
+   }
+   /* dot design*/
+   .designbg 
+   {
+      position: absolute;
+      left: -2.7%;
+      right: 94.9%;
+      opacity: 0.7;
+      top: 8%;
+   }
+   .design2 
+   {
+      position: absolute;
+      left: -3.1%;
+      right: 96.46%;
+      top: 11.92%;
+      opacity: 0.9;
+   }
+
+
+   /* Slideshow */
+   .carousel-inner
+   {
+      width: 500px;
+      height: 340px;
+      padding: 40px 0px 0px 0px;
+   }
+   /* Fading animation*/ 
+   .maindiv 
+   {
+      width: 500px;
+      height: 340px;
+      position: absolute;
+      top: 4%;
+      left: 56%; 
+      background-image: url('../../images/Group%20pic.svg');
+      box-shadow: 0px 0px 0px 1px white;
+      animation: Slider 60s infinite linear;
+   }
+   @keyframes Slider
+   {
+      0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+      }
+      20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+      }
+      40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+      60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+      80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+   }
+   /*slider ends  */
+   
+   
+   
+   /* Credentials*/
+   .card-deck-sec
+   {
+      margin: 20px 50px 20px ;
+      display: block;
+      position: relative;
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103; 
+   }
+   /*option cards starts*/
+   .options h2 
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .options p 
+   {
+      font-family: "Muli",sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */      
+      color: #FFFFFF;      
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*option cards ends*/
+   .segment-on
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic11
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-tw
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic21
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-thr
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic31
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fou
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic41
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fiv
+   {
+      margin: 20px 50px 20px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic51
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-si
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic61
+   {
+      padding: 10px 0 0 0;
+   }
+
+   
+   /*products starts*/      
+   .designbgc
+   {
+      position: absolute;
+      top: 57.50%;
+   }
+   .card-deck-thr
+   {
+      display: block;
+      padding: 100px 10px 100px 1px;
+      position: absolute;
+      top: 65%;
+      height :100vh;
+   }   
+   .segment-12
+   {
+      margin: 10px 125px 10px 80px ;
+      width: 300px;
+      height: 300px;
+   }
+   .pic111
+   {
+      justify-content: center;
+      padding: 10px 0 0 0;
+      width: 350px;
+      height: 350px;
+   } 
+   .segment-13
+   {
+      margin: 50px 0px 100px 260px;
+      width: 400px;
+      height: 400px;
+   }
+   .Products h2
+   { 
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   /*products ends*/
+
+   
+   /*blog slider starts*/  
+   .card-deck
+   {
+      position: absolute;
+      display: block;
+      top:46%;
+      height: 150%vh;  
+   }  
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }   
+   .segment-1
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font=size:22px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   }
+   .segment-3
+   {
+      margin: 20px 50px 20px ;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   .btn-sec
+   {
+      position: absolute;
+      left: 38%;
+      top: 100px; 
+   }
+   /*blog slider ends*/
+   
+     
+   /* footer start*/
+   p
+   {
+      color: aliceblue;
+      line-height: 25px;
+   }
+   h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 13px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .lg
+   {
+      width:220px;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+   p
+   {
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px        
+   }
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 0px 0px 30px;  
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 75px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+   }
+   .footer
+   {
+      display: block;
+      /* position: absolute; */
+      width: 100%;
+      bottom:0;
+      right: 0;
+   }
+  /* footer ends*/ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) { 
+
+   body {
+      background: rgba(0, 0, 0, 0.8); 
+   }   
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 70px;
+      padding: 2px 10px;
+    }
+    /*navigation*/
+    .header
+    {
+      height: auto;
+    }
+    .navbar-style
+    {
+      padding: 10px 10px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+    }
+    .icon-bar
+    {
+    background: #FBC314;
+    }
+    li a
+    { 
+     color: #FBC314;  
+    }
+    /*navigation bar ends*/
+
+
+    /*content*/
+    .head
+    {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 18px;
+      margin: 0px 0px 0px 35vw;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .big-text
+    {
+      display: block;
+      font-size: 12px;
+      margin: 0px;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+      line-height: 20px;
+    }
+    .banner-info a
+    {
+      font-size: 10px;
+      margin: 20px 40vw;
+      width: auto;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      color: #ffffff; 
+    } 
+    .banner-info
+    {
+      margin: 0px 1px 1px 1px;
+    }
+    .designbg 
+    {
+      display: none;
+    }  
+    .design2 {
+      display: block;
+      float: left;
+      margin-top: 15vh;
+    }
+
+    /* Slideshow */
+    .carousel-inner
+    {
+      width: 80vw;
+      height: 20vh;
+      padding: 40px 0px 0px 0px;
+    }
+    /* Fading animation*/ 
+    .maindiv {
+       margin: 0px 10px;
+       width: 94vw;
+       height: 70vh;
+       /* position: absolute; */
+       /* top: 4%;
+       left: 56%; */
+       background-image: url('../../images/Group%20pic.svg');
+       box-shadow: 0px 0px 0px 1px white;
+       animation: Slider 60s infinite linear;
+    }
+    @keyframes Slider{
+       0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+       }
+       20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+       }
+       40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+       60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+       80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+    }
+    /*slider ends  */
+
+   /* Credentials*/
+   .card-deck-sec
+   {
+      margin-top: 20vh;
+      padding-left: 0px;
+      display: block;
+      /* position: absolute;  */
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103;
+   }
+    /*option cards starts*/
+    .options h2 {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 16px;
+    padding-top: 20px;
+    /* identical to box height, or 156% */
+    color: #FBC314;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .options p {
+    font-family: "Muli",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 10px;
+    line-height: 20px;
+    padding-bottom: 40px;
+    /* identical to box height, or 167% */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    /*option cards ends*/
+
+    .segment-on
+    {
+      margin: 20px 20px 20px 40px;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic11
+    {
+      padding: 10px 0 0 0;
+    }
+
+    .segment-tw
+    {
+      margin: 20px 10px 20px 20px;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic21
+    {
+      padding: 10px 0 0 0;
+    }
+
+    .segment-thr
+    {
+      margin: 20px 20px 20px 40px;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic31
+    {
+      padding: 10px 0 0 0;
+    }
+
+    .segment-fou
+    {
+      margin: 20px 10px 20px 20px;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic41
+    {
+      padding: 10px 0 0 0;
+    }
+
+    .segment-fiv
+    {
+      margin: 20px 20px 20px 40px;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic51
+    {
+      padding: 10px 0 0 0;
+    }
+
+    .segment-si
+    {
+      margin: 20px 10px 20px 20px;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+    }
+    .pic61
+    {
+      padding: 10px 0 0 0;
+    }
+    
+
+
+    /*products starts*/
+    .designbgc img
+    {
+       width: 44vw;
+       height: 100vh;
+       float: left;
+    }   
+    .card-deck-thr
+    {
+      display: block;
+      padding: 0px 0px;
+      width: 95vw;
+      height: auto;
+    }
+    .segment-12
+    {
+      margin: 0px 0px 0px -320px;
+      width: vw;
+      height: 100vh;
+      display: block;
+    }
+    .pic111
+    {
+      justify-content: center;
+      padding: 120px 0px 0px 0px;
+      width: 44vw;
+      height: 75vh;
+    } 
+    .segment-13
+    {
+      margin: 60px 0px 10px 0px;
+      width: 50vw;
+      height: 85vh;
+      color: aqua;
+    }
+    .Products h2
+    {
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 26px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .segment-13 a
+    {
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      color: #ffffff; 
+    } 
+    /*products ends*/
+  
+    
+   /*blog slider starts*/
+   .card-deck
+   {
+      display: block;
+   }
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .segment-1
+   {
+      margin: 20px 20px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font-size: 14px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 20px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   } 
+   .segment-3
+   {
+      margin: 20px 30px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   /*blog slider ends*/
+
+
+
+   /* footer start*/
+   .footer p{
+      color: aliceblue;
+      line-height: 20px;
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px
+   }
+   .footer h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 13px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .lg
+   {
+      width:200px;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 0px 0px 8vw;
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 75px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+   }
+   .footer
+   {
+      display: block;
+      /* position: absolute; */
+      width: 100%;
+      bottom:0;
+      right: 0;
+   }
+   /* footer ends*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+   
+   body {
+      background: rgba(0, 0, 0, 0.8); 
+   }
+   /*navigation bar starts*/
+   /*logo*/
+   .logo
+   {
+      height: 60px;
+      padding: 2px 10px;
+   }
+   /*navigation*/
+   .header
+   {
+      height: auto;
+   }
+   .navbar-style
+   {
+      padding: 10px 5px;
+      font-family: "Bebas neue",sans-serif;
+      text-decoration-color: #FBC314; 
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+   }
+   .icon-bar
+   {
+      background: #FBC314;
+   }
+   li a
+   { 
+      color: #FBC314;  
+   }
+   /*navigation bar ends*/
+   
+   
+   /*content*/
+   .head
+   {
+      font-family: "Bebas Neue",sans-serif;
+      color: #FBC314;
+      font-size: 18px;
+      margin: 0px 20vw;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .big-text
+   {
+      display: block;
+      font-size: 12px;
+      margin: 0px 0px 0px 0px ;
+      color: floralwhite;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-family: "Muli",sans-serif; 
+      line-height: 20px;
+   }
+   a.btn
+   {
+      font-size: 10px;
+      margin: 10px 25vw;
+      width: auto;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #E70103;
+      color: #ffffff; 
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   } 
+   .banner-info
+   {
+      margin: 1px 1px 1px 1px;
+   }
+   .designbg 
+   {
+      display: none;
+   }  
+   .design2 
+   {
+      display: none;
+   }
+
+
+   /* Slideshow */
+   .carousel-inner
+   {
+      width: 80vw;
+      height: 40vh;
+      padding: 40px 0px 0px 0px;
+   }    
+    /* Fading animation*/ 
+   .maindiv 
+   {
+      width: 95vw;
+      height: 30vh;
+      background-image: url('../../images/Group%20pic.svg');
+      box-shadow: 0px 0px 0px 1px white;
+      animation: Slider 60s infinite linear;
+   }
+   @keyframes Slider
+   {
+      0%{
+         background-image: url('../../images/Group%20pic.svg'); 
+         background-size: 100% 100%; 
+      }
+      20%{
+         background-image: url('../../images/2.png');
+         background-size: 100% 100%; 
+      }
+      40%{
+         background-image: url('../../images/3.png');
+         background-size: 100% 100%; 
+      }
+      60%{
+         background-image: url('../../images/4.png');
+         background-size: 100% 100%; 
+      }
+      80%{
+         background-image: url('../../images/5.png');
+         background-size: 100% 100%; 
+      }
+   }
+   /*slider ends  */
+    
+
+   /* Credentials*/
+   .card-deck-sec
+   {
+      display: block;
+   }
+   .card-deck-sec a 
+   {
+      text-decoration-color: aqua;
+      color: #E70103;
+   }
+   /*option cards starts*/
+   .options h2
+   {
+      padding-top: 20px;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 28px;
+      line-height: 16px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .options p
+   {
+      font-family: "Muli",sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      padding: 0px 10px;
+      line-height: 20px;
+      /* identical to box height, or 167% */
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*option cards ends*/
+   .segment-on
+   {
+      margin: 10px 40px 10px;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic11
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-tw
+   {
+      margin: 10px 40px 10px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic21
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-thr
+   {
+      margin: 10px 40px 10px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic31
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fou
+   {
+      margin: 10px 40px 10px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic41
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-fiv
+   {
+      margin: 10px 40px 10px ;
+      background: #FBC314;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic51
+   {
+      padding: 10px 0 0 0;
+   }
+   .segment-si
+   {
+      margin: 10px 40px 10px ;
+      background: #FFFFFF;
+      height: 250px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic61
+   {
+      padding: 10px 0 0 0;
+   }
+    
+
+   /*products starts*/
+   .designbgc img
+   {
+      display: none;
+   }   
+   .card-deck-thr
+   {
+      display: block;
+      padding: 0px 0px;
+      width: 95vw;
+      height: auto;
+   }
+   .segment-12
+   {
+      display: none;
+   }
+   .pic111
+   {
+      display: none;
+   } 
+   .segment-13
+   {
+      margin: 10px 10px 10px 20px;
+      width: auto;
+      height: auto;
+      color: aqua;
+   }
+   .Products h2
+   {
+      justify-content: center;
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 36px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   /*products ends*/
+  
+    
+   /*blog slider starts*/
+   .card-deck
+   {
+      display: block;
+   }
+   .Blogs h2
+   {
+      font-family: Bebas Neue;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 56px;
+      /* identical to box height, or 156% */
+      color: #FBC314;
+      mix-blend-mode: normal;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+   .segment-1
+   {
+      margin: 20px 30px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic1
+   {
+      padding: 20px 0 14px 0;
+      width: 220px;  
+   }
+   .card-text
+   {
+      padding: 1px 0 1px 0; 
+      font-size: 14px;
+      color: #E70103
+   }
+   .segment-1 p
+   {
+      color: #000;
+   }
+   .segment-1 a
+   {
+      color: #E70103;
+   }
+   .segment-2
+   {
+      margin: 20px 30px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic2
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-2 p
+   {
+      color: #000;
+   }
+   .segment-2 a
+   {
+      color: #E70103;
+   } 
+   .segment-3
+   {
+      margin: 20px 30px 20px;
+      background: #FFFFFF;
+      height: 350px;
+      width: 250px;
+      border-radius: 10%;
+   }
+   .pic3
+   {
+      width: 220px; 
+      padding: 20px 0 14px 0;
+   }
+   .segment-3 p
+   {
+      color: #000;
+   }
+   .segment-3 a
+   {
+      color: #E70103;
+   }
+   /*blog slider ends*/
+
+
+   /* footer start*/
+   .footer p{
+      color: aliceblue;
+      line-height: 20px;
+      font-family: muli,sans-serif;
+      font-weight: bold;
+      font-size: 14px
+   }
+   .footer h2
+   {
+      color: aliceblue;
+      font-size: 18px;
+      font-family: bebas neue,sans-serif;
+      padding: 10px 0px 5px 0px;
+   }
+   .footer-top
+   {
+      background: #E70103;
+      padding: 40px 0px 0px 0px ;
+   }
+   .segment-one
+   {
+      margin: 0px 5px 0 ;
+      width: 300px;
+   }
+   .segment-two
+   {
+      margin: 0px 5px 0 ; 
+      width: 300px;
+   }
+   .segment-two a
+   {
+      text-decoration: none;
+      color:#FBC314; 
+      font-size: 16px;
+   }
+   .segment-three
+   {
+      margin: 0px 5px 0 ;
+      width: 250px;
+   }
+   .segment-three a
+   {
+      font-size: 16px;
+      text-decoration: none;
+   }
+   .segment-three ul li
+   {
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      line-height: 41px;
+   }
+   .segment-four
+   {
+      margin: 0px 5px 0px ;
+      width: 250px;
+   }
+   .segment-four a
+   {
+      background: #FBC314;
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      border-radius: 50%;
+   }
+   .segment-four i
+   {
+      font-size: 20px;
+      color:  #E70103;
+      padding: 10px 12px;
+   }
+   .footer-bottom-text
+   {
+      text-align: center;
+      line-height: 20px;
+      font-family: "Muli",sans-serif;
+      background: #E70103;
+      padding: 10px 0px;
+   }
+   /* footer ends*/
+
+}

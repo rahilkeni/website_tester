@@ -1,0 +1,804 @@
+*{
+   padding: 0px;
+    margin: 0px;
+}
+body
+{
+    width: auto;
+ position: relative;
+height: 3072px;
+background: rgba(0, 0, 0, 0.8) ; 
+}
+@media screen and (max-width:900px)
+{
+body
+{
+    height: 6144px;
+background: rgba(0, 0, 0, 0.8) ; 
+}    
+}
+/*navigation bar starts*/
+/*logo*/
+.logo
+{
+height: 80px;
+    padding: 2px 10px;
+}
+
+/*navigation*/
+.header
+{
+    height :80vh;
+}
+.navbar-style
+{
+padding: 10px 10px;
+    font-family: "Bebas neue",sans-serif;
+    text-decoration-color: #FBC314; 
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25);
+}
+.icon-bar
+{
+background: #FBC314;
+}
+li a
+{ 
+  color: #FBC314;  
+}
+li
+{
+    top: 10px;
+}
+/*navigation bar ends*/
+/*content*/
+.big-text
+{
+  display: block;
+    font-size: 16px;
+    margin: 0px 0px 0px 40px ;
+    color: floralwhite;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Muli",sans-serif; 
+    
+}
+.head
+{
+
+    font-family: "Bebas Neue",sans-serif;
+    color: #FBC314;
+    font-size: 25px;
+    margin: 0 40px 0 ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a.btn
+{
+   margin: 0 40px 0 ;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E70103;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+a
+{
+   color: #ffffff; 
+}
+.banner-info
+{
+    margin: 50px 1px 1px 30px;
+}
+/* dot design*/
+@media screen and (max-width:900px)
+{
+  .designbg 
+{
+ display: none;
+}  
+    .design2 {
+  display: none;
+}
+}
+.designbg {
+     position: absolute;
+left: -2.7%;
+right: 94.9%;
+opacity: 0.7;
+}
+.design2 {
+    position: absolute;
+left: -3.1%;
+right: 96.46%;
+top: 11.92%;
+opacity: 0.9;
+}
+* {box-sizing:border-box}
+.designbg 
+{
+    position: absolute;
+    top: 8%;
+}
+/* Slideshow */
+
+.carousel-inner
+{
+     width: 500px;
+    height: 340px;
+    padding: 40px 0px 0px 0px;
+}
+
+/* Fading animation*/ 
+.maindiv {
+    width: 500px;
+    height: 340px;
+    position: absolute;
+    top: 4%;
+    left: 56%;
+    
+    background-image: url('Images,Icons,illustrations/Group%20pic.svg');
+    box-shadow: 0px 0px 0px 1px white;
+    animation: Slider 60s infinite linear;
+}
+@keyframes Slider{
+    0%{
+       background-image: url('Images,Icons,illustrations/Group%20pic.svg'); 
+        background-size: 100% 100%; 
+    }
+    20%{background-image: url('Images,Icons,illustrations/2.png');background-size: 100% 100%; 
+    }
+    40%{background-image: url('Images,Icons,illustrations/3.png');
+    background-size: 100% 100%; }
+    60%{background-image: url('Images,Icons,illustrations/4.png');
+    background-size: 100% 100%; }
+    80%{background-image: url('Images,Icons,illustrations/5.png');
+    background-size: 100% 100%; }
+}
+@media screen and (max-width:900px)
+{
+    .maindiv {
+        display: none;
+    }
+}
+    /*slider ends  */
+
+
+
+/* footer start*/
+
+p{
+    color: aliceblue;
+    line-height: 25px;
+}
+h2
+{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: bebas neue,sans-serif;
+    padding: 10px 0px 13px 0px;
+}
+.footer-top
+{
+    background: #E70103;
+    padding: 40px 0px 0px 0px ;
+}
+.lg
+{
+
+    width:220px;
+}
+.segment-one
+{
+    margin: 0px 5px 0 ;
+    width: 300px;
+}
+p
+{
+    font-family: muli,sans-serif;
+    font-weight: bold;
+    font-size: 14px
+    
+}
+.segment-two
+{
+   margin: 0px 5px 0 ; 
+    width: 300px;
+}
+.segment-two a
+{
+    text-decoration: none;
+    color:#FBC314; 
+    font-size: 16px;
+}
+.segment-three
+{
+      margin: 0px 5px 0 ;
+    width: 250px;
+}
+.segment-three a
+{
+    font-size: 16px;
+    text-decoration: none;
+}
+.segment-three ul li
+{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    line-height: 41px;
+}
+.segment-four
+{
+    margin: 0px 19px 0px ;
+   
+    width: 250px;
+}
+.segment-four a
+{
+    background: #FBC314;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-four i
+{
+    font-size: 20px;
+    color:  #E70103;
+    padding: 10px 12px;
+}
+.footer-bottom-text
+{
+    text-align: center;
+    line-height: 75px;
+    font-family: "Muli",sans-serif;
+     background: #E70103;
+}
+.footer
+{
+
+display: block;
+    position: absolute;
+     width: 100%;
+    bottom:0;
+    right: 0;
+    
+}
+@media screen and (max-width:900px)
+{
+{
+
+display: block;
+    position: absolute;
+     max-width:100%;
+    bottom:0;
+    
+}      
+}
+/* footer ends*/
+
+/*blog slider starts*/    
+
+
+.Blogs h2{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+    
+@media screen and (max-width:900px)
+{
+   .card-deck
+{
+    position: absolute;
+    display: block;
+    top: 30%vw;
+
+    
+
+    
+}
+
+
+.segment-1
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-2
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-3
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic1
+{
+    padding: 20px 0 14px 0;
+   width: 220px;  
+}
+.pic2
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.pic3
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.card-text
+{
+    padding: 1px 0 1px 0; 
+    font=size:22px;
+    color: #E70103
+}
+.segment-3 p
+{
+    color: #000;
+}
+
+.segment-2 p
+{
+    color: #000;
+}
+
+.segment-1 p
+{
+    color: #000;
+}
+.segment-3 a
+{
+    color: #E70103;
+}
+.segment-2 a
+{
+    color: #E70103;
+}
+.segment-1 a
+{
+    color: #E70103;
+}
+.btn-sec
+{
+position: absolute;
+    left: 38%;
+    top: 100px;
+    
+}
+}
+.card-deck
+{
+    position: absolute;
+    display: block;
+    top:46%;
+    height: 150%vh;
+    
+    
+}
+
+
+.segment-1
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-2
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-3
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic1
+{
+    padding: 20px 0 14px 0;
+   width: 220px;  
+}
+.pic2
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.pic3
+{
+   width: 220px; 
+     padding: 20px 0 14px 0;
+}
+.card-text
+{
+    padding: 1px 0 1px 0; 
+    font=size:22px;
+    color: #E70103
+}
+.segment-3 p
+{
+    color: #000;
+}
+
+.segment-2 p
+{
+    color: #000;
+}
+
+.segment-1 p
+{
+    color: #000;
+}
+.segment-3 a
+{
+    color: #E70103;
+}
+.segment-2 a
+{
+    color: #E70103;
+}
+.segment-1 a
+{
+    color: #E70103;
+}
+.btn-sec
+{
+position: absolute;
+    left: 38%;
+    top: 100px;
+    
+}
+.Blogs h2{
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+    
+/*blog slider ends*/
+
+/*option cards starts*/
+.options h2 {
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.options p {
+font-family: "Muli",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Credentials*/
+.card-deck-sec
+{
+     margin: 20px 50px 20px ;
+    display: block;
+    position:relative;
+ 
+
+   
+}
+.card-deck-sec a 
+{
+    text-decoration-color: aqua;
+    color: #E70103;
+    
+}
+.segment-on
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-tw
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-thr
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fou
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fiv
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-si
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic11
+{
+    padding: 10px 0 0 0;
+}
+.pic21
+{
+    padding: 10px 0 0 0;
+}
+.pic31
+{
+    padding: 10px 0 0 0;
+}
+.pic41
+{
+    padding: 10px 0 0 0;
+}
+.pic51
+{
+    padding: 10px 0 0 0;
+}
+.pic61
+{
+    padding: 10px 0 0 0;
+}
+
+@media screen and (max-width:900px)
+{
+.card-deck-sec
+{
+    display: block;
+     padding: 10px 0px 100px 80px;
+    position: absolute;
+    box-sizing: 
+
+   
+} 
+.footdesign1
+    {
+        display: none;
+    }
+.segment-on
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-tw
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-thr
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fou
+{
+  margin: 20px 50px 20px ;
+    background: #FFFFFF;
+   height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-fiv
+{
+  margin: 20px 50px 20px ;
+    background: #FBC314;
+ height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.segment-si
+{
+   margin: 20px 50px 20px ;
+    background: #FFFFFF;
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.pic11
+{
+    padding: 10px 0 0 0;
+}
+.pic21
+{
+    padding: 10px 0 0 0;
+}
+.pic31
+{
+    padding: 10px 0 0 0;
+}
+.pic41
+{
+    padding: 10px 0 0 0;
+}
+.pic51
+{
+    padding: 10px 0 0 0;
+}
+.pic61
+{
+    padding: 10px 0 0 0;
+}
+    
+}
+
+/*option cards ends*/
+/*products starts*/
+@media screen and (max-width:900px)
+{
+.card-deck-thr
+{
+    display: block;
+  padding: 100px 0px 100px 0px;
+    position: absolute;
+    top: 80%;
+    }
+.segment-12
+{
+  margin: 10px 125px 10px 80px ;
+     width: 300px;
+    height: 300px;
+}
+.segment-13
+{
+  margin: 10px 0px 100px 60px;
+     width: 400px;
+    height: 400px;
+}
+.pic111
+{
+justify-content: center;
+    padding: 10px 0 0 0;
+    width: 350px;
+    height: 350px;
+}  
+.Products h2
+{
+  
+justify-content: center;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-bodyy p
+{
+    
+}
+.designbgc
+{
+    position: absolute;
+    top: 83.50%;
+}   
+}      
+
+.card-deck-thr
+{
+    display: block;
+  padding: 100px 10px 100px 1px;
+    position: absolute;
+    top: 65%;
+    height :100vh;
+
+    
+}   
+.segment-12
+{
+  margin: 10px 125px 10px 80px ;
+     width: 300px;
+    height: 300px;
+}
+.segment-13
+{
+  margin: 50px 0px 100px 260px;
+     width: 400px;
+    height: 400px;
+}
+.pic111
+{
+justify-content: center;
+    padding: 10px 0 0 0;
+    width: 350px;
+    height: 350px;
+}  
+.Products h2
+{
+  
+justify-content: center;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 56px;
+/* identical to box height, or 156% */
+color: #FBC314;
+mix-blend-mode: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-bodyy p
+{
+    
+}
+.designbgc
+{
+    position: absolute;
+    top: 57.50%;
+}
+
+/*products ends*/
+
+
+
+
